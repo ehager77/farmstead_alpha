@@ -18,7 +18,7 @@ ESP8266WebServer server(80);
 DNSServer dns;
 
 // Connect to the Ubidots
-const char* UBIDOTS_TOKEN = "BBFF-3z2OHVkOs8PsT5iHrdqldEq5zLOfv3";
+const char* UBIDOTS_TOKEN = "YOUR_TOKEN";
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
 //Declare real time clock object

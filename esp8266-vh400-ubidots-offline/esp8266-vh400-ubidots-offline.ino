@@ -20,7 +20,7 @@ WiFiServer server(80);
 DNSServer dns;
 
 // Connect to the Ubidots
-const char* UBIDOTS_TOKEN = "BBFF-lsjKfyNo0f8Ujt65ANwH4sSYxD7fFc";
+const char* UBIDOTS_TOKEN = "YOUR_TOKEN";
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
 
 //Declare real time clock object
